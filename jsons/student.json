@@ -1,0 +1,10 @@
+
+{
+  "@JsonKey(ignore: true) Person":"person",
+  "person01":"$person",
+  "name":"wendux",
+  "father":"$user",
+  "friends":"$[]user",
+  "keywords":"$[]String",
+  "age":20
+}
