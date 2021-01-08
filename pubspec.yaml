@@ -11,15 +11,18 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  json_annotation: ^2.0.0
-  json_model: ^0.0.2
+#  json_annotation: ^2.0.0
+#  json_model: ^0.0.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  json_model: ^0.0.2
   build_runner: ^1.0.0
   json_serializable: ^2.0.0
+#  json_model:
+#    git:
+#       url: "git@gitlab.ttyuyin.com:azeroth/app/json_model.git"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
