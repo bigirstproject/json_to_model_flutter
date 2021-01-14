@@ -1,3 +1,5 @@
+///使用指导文档，https://www.jianshu.com/p/84a0b551e3eb,
+///cd到根目录下，运行命令：flutter packages pub run build_runner build
 
 import 'package:json_annotation/json_annotation.dart';
 
@@ -6,9 +8,7 @@ part 'user.g.dart';
 
 ///这个标注是告诉生成器，这个类是需要生成Model类的
 @JsonSerializable()
-
-class User{
-
+class User {
   String name;
   String email;
   String age;
@@ -19,9 +19,7 @@ class User{
   factory User.fromJson(Map<String, dynamic> json) => _$UserFromJson(json);
   Map<String, dynamic> toJson() => _$UserToJson(this);
 
-
   User(this.name, this.email, this.age, this.id, this.address);
-
 
   @override
   String toString() {
